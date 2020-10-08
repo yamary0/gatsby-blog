@@ -1,0 +1,32 @@
+// .titleLink {
+//     color: black;
+//     text-decoration: none;
+// }
+$headerHight : 80px;
+$cAinez : #6b848d;
+
+.header {
+    z-index:100;
+    position: fixed;
+    height: $headerHight;
+    width: 100%;
+    text-align: left;
+    // justify-content: center;
+    color: $cAinez;
+    background-color: transparent;
+}
+
+.titleLink {
+    padding-left: 10px;
+}
+.titleText {
+    &:first-letter {
+        color: $cAinez;
+    }
+}
+
+.main {
+    padding-top: $headerHight;
+    width: 90%;
+    margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+$cAinez : #6b848d;
+
+ul {
+    padding:0;
+    margin: 0 auto;
+
+    // background-color: red;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+        // flex-basis: 43%;
+        width: 100%;
+
+        margin-bottom: 10px;
+        padding: 10px 15px;
+        border-radius: 30px;
+        background: #eeeeee;
+        box-shadow:  10px 10px 30px #cccccc, 
+    }
+}
+
+.articleTitle {
+    a{
+        color: $cAinez;
+    }
+}
+.postItem {
+    position: relative;
+}
+.postDesc {
+    padding:0 20px;
+}

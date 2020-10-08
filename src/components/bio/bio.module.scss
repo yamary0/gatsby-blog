@@ -1,0 +1,24 @@
+.bio {
+    width: 90%;
+    margin: 0 auto;
+    // min-width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    min-height: 100px;
+    height: 10vw;
+    min-width: 100px ;
+    width: 10vw;
+
+    border-radius: 100%;
+}
+.profileName {
+    margin: 2px 0;
+}
+.profileDsc {
+    width: 90%;
+}
