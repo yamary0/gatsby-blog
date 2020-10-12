@@ -1,0 +1,20 @@
+$cAinez : #6b848d;
+.content {
+    line-height: 1.75em;
+    h1 {
+    line-height: 1.5em;
+    color: $cAinez;
+    }
+
+    h2 {
+        border-bottom: 2px solid $cAinez;
+        padding-bottom: 5px;
+        margin: 30px auto;
+    }
+
+}
+.postList {
+     box-shadow:  10px 10px 30px #cccccc;
+     border-radius: 30px;  
+     padding: 5px 10px;
+}

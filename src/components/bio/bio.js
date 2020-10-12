@@ -46,7 +46,7 @@ const Bio = () => {
     <div className={Style.bio}>
       <img src={profile} className={Style.profile} alt=''/>
       <p className={Style.profileName}>ane</p>
-      <p className={Style.profileDsc}>プログラミング・デザイン・勉強についてただただ興味を持っている初心者が、全くの初心者目線で学習・分析・研究を行い、記事としてアップしているblogです。以下の内容についてこれから頑張ろうという方の助けになれば幸いです 。</p>
+      <p className={Style.profileDsc}>プログラミング・デザイン・勉強についてただただ興味を持っている初心者が、全くの初心者目線で学習・分析・研究を行い、記事としてアップしているblogです。日記や趣味について書くことも多々あると思います。</p>
       {/* {avatar && (
         <Image
           fixed={avatar}
