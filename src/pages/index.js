@@ -29,7 +29,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
-      <ul>
+      <ul className="Style.allpost">
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
