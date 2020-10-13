@@ -6,7 +6,7 @@ module.exports = {
       summary: `プログラミング/デザインを勉強中.まずはそれぞれの最新へ追いつくことを目標に勉強をしています.`,
     },
     description: `日々学習した内容の記録/世の中のデザイン研究/勉強の仕方などを初心者目線で提供していきます.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://a-note.netlify.app`,
     social: {
       twitter: ``,
     },
@@ -17,6 +17,7 @@ module.exports = {
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
         head: true,
+       }
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -79,6 +80,7 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`
   ],
 }
